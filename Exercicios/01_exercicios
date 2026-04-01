@@ -1,0 +1,44 @@
+#%%
+import math
+#%%
+'''01. Considere o código:
+import math
+x = math.sqrt(16) + math.pow(2, 3)
+print(x)
+ 
+Qual será a saída?*/
+'''
+x = math.sqrt(16) + math.pow(2,3)
+x
+#%%
+'''
+02. Qual é a principal diferença entre usar math.pow(a, b) e o operador a ** b em Python?
+'''
+
+type(math.pow(2,2))
+type(2**2)
+
+'''
+R: math.pow sempre retorna um número do tipo float, enquanto ** pode retornar int ou float
+'''
+#%%
+'''
+03. Por que o código
+import math
+print(math.sqrt(2) ** 2 == 2)
+pode retornar False em Python?
+'''
+math.sqrt(2) ** 2
+
+'''
+R: Porque operações em ponto flutuante podem introduzir pequenos erros de aproximação.
+'''
+#%%
+'''
+04.Qual será a saída do programa?
+
+import math
+print("Potência:", int(math.pow(2, 10)))
+'''
+
+print(f'Potência:', int(math.pow(2,10)))
