@@ -1,6 +1,5 @@
 # CURSO DE EXTENSÃO - PYTHON E A MATEMÁTICA DE DADOS FINANCEIROS: CONCEITOS E APLICAÇÕES
 ## Curso oferecido pela UFRGS
----
 
 Esse curso tem como objetivo ensinar a utilizar o python com dados financeiros.
 
